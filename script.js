@@ -66,4 +66,10 @@ document.getElementById("Journey").addEventListener('click',()=>{
     let ShortPathArray=shortestPathBinaryMatrix(obs_matrix,a,b,x,y);
     DisplayPath(ShortPathArray);
 
+
+    window.scrollTo({
+        top:Container.scrollHeight,
+        behavior:'smooth'
+    });
+    
 });
