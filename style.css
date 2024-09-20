@@ -1,0 +1,79 @@
+#OuterContainer{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.MapOuter{
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.MapInner{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    border: 1px solid black;
+    background-color: darkgreen;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: visible;
+}
+.Block{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    border: 1px solid black;
+}
+.Block:hover{
+    background-color:cyan;
+}
+
+.Selected{
+    background-color: darkgray;
+}
+#Journey{
+    position: relative;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    border: 2px solid green;
+}
+#Journey:hover{
+    background-color: green;
+}
+#Status{
+    text-align: center;
+    position: relative;
+    left: 50%;
+    translate: -50%;
+}
+#StartJourney{
+    width: 100px;
+    height: 30px;
+    border: 2px solid green;
+    background-color: white;
+    border-radius: 10px;
+}
+#StartJourney:hover{
+    background-color: green;
+}
+#Car{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: -20px;
+    left: -20px;
+    background-color: blue;
+}
